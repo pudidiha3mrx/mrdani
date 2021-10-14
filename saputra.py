@@ -3,7 +3,8 @@
 import socket, random, time, os, sys
 
 if len(sys.argv) < 5:
-        print " God UDP Flood MR.DANI "
+os.system("clear")
+print(" God UDP Flood MR.DANI ")
         sys.exit("Usage: python "+sys.argv[0]+" <ip> <port> <size> <time>")
 
 ip = sys.argv[1]
